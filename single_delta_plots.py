@@ -10,10 +10,10 @@ n_max = 3
 
 #Figure 1
 
-JC_data = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/JC_Del_2_beta_90.npy", allow_pickle=True)
-Rabi_data = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/Rabi_Del_2_beta_90.npy", allow_pickle=True)
-SymBreak1 = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/SymBreak_Rabi_Del_2_beta_90_eps_01Del.npy", allow_pickle=True)
-SymBreak2 = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/SymBreak_Rabi_Del_2_beta_90_eps_035Del.npy", allow_pickle=True)
+JC_data = np.load("C:/Users/akash/PycharmProjects/CSV_for_Github/CSV/Single_Del_Cross_Sections/JC_Del_2_beta_90.npy", allow_pickle=True)
+Rabi_data = np.load("C:/Users/akash/PycharmProjects/CSV_for_Github/CSV/Single_Del_Cross_Sections/Rabi_Del_2_beta_90.npy", allow_pickle=True)
+SymBreak1 = np.load("C:/Users/akash/PycharmProjects/CSV_for_Github/CSV/Single_Del_Cross_Sections/SymBreak_Rabi_Del_2_beta_90_eps_01Del.npy", allow_pickle=True)
+SymBreak2 = np.load("C:/Users/akash/PycharmProjects/CSV_for_Github/CSV/Single_Del_Cross_Sections/SymBreak_Rabi_Del_2_beta_90_eps_035Del.npy", allow_pickle=True)
 
 fig, ax = plt.subplots()
 
@@ -58,13 +58,9 @@ plt.show()
 
 #Figure 2
 
-# AllEvenData = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/SymBath_2to1_Del2_beta90.npy", allow_pickle=True)
-# FiftyFiftyData = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/FiftyFiftyDel2betaE90BetaO1.npy", allow_pickle=True)
-# SymBreakSymBathData = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/SymBathSymBreakDel2BetaE90BetaO1eps01Del.npy", allow_pickle=True)
-
-AllEvenData = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/SymBaths2to1FullRange.npy", allow_pickle=True)
-FiftyFiftyData = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/SymBathFiftyFiftyFull.npy", allow_pickle=True)
-SymBreakSymBathData = np.load("C:/Users/akash/PycharmProjects/HolsteinModel/P3_PPT_Rabi/Single_Del_Cross_Sections/SymBathsSymBreakFullRange.npy", allow_pickle=True)
+AllEvenData = np.load("C:/Users/akash/PycharmProjects/CSV_for_Github/CSV/Single_Del_Cross_Sections/SymBaths2to1FullRange.npy", allow_pickle=True)
+FiftyFiftyData = np.load("C:/Users/akash/PycharmProjects/CSV_for_Github/CSV/Single_Del_Cross_Sections/SymBathFiftyFiftyFull.npy", allow_pickle=True)
+SymBreakSymBathData = np.load("C:/Users/akash/PycharmProjects/CSV_for_Github/CSV/Single_Del_Cross_Sections/SymBathsSymBreakFullRange.npy", allow_pickle=True)
 
 
 fig, ax = plt.subplots()
